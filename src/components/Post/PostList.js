@@ -1,8 +1,7 @@
-import { AnimatePresence, AnimateSharedLayout, motion } from "framer-motion";
+import {  motion } from "framer-motion";
 import React from "react";
 import axios from "../../api/axios";
 import Post from "./Post";
-import PostMiniModal from "./PostMiniModal";
 
 const baseURL = "https://image.tmdb.org/t/p/w500/";
 

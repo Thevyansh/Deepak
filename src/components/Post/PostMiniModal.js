@@ -1,12 +1,6 @@
 import React from "react";
-import { AnimatePresence, motion } from "framer-motion";
-import axios from "../../api/axios";
-import requests from "../../api/tmdb";
-const baseURL = "https://image.tmdb.org/t/p/w500/";
+import {  motion } from "framer-motion";
 
-const scale = {
-  
-}
 
 const PostMiniModal = ({ title, image, category, description }) => {
   return (
