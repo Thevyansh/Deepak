@@ -1,0 +1,25 @@
+.container{
+  font-size: 24px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding:0 30px;
+  height: 70px;
+
+  &::after{
+    position: absolute; 
+    right: 0; 
+    margin-right: -35px;
+    height: 70px; 
+    width: 70px; 
+    background: black; 
+    z-index: -1;
+    content: ""; 
+    border-radius: 0 50% 50% 0;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

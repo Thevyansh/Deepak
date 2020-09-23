@@ -1,0 +1,21 @@
+.navigationItems {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  position: relative;
+  height: 70px;
+  justify-content: space-between;
+  margin: 0;
+
+  &::after{
+    position: absolute; 
+    left: 0; 
+    margin-left: -35px;
+    height: 70px; 
+    width: 70px; 
+    background: black; 
+    z-index: -1;
+    content: ""; 
+    border-radius: 50% 0 0 50%;
+  }
+}
